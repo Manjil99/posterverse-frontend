@@ -1,0 +1,39 @@
+.menu{
+    top: 10px;
+    right: 10px;
+    background-color: aqua;
+    z-index: 1000;
+}
+
+.footer{
+    position:relative;
+    left:0;
+    bottom:0;
+    right:0;
+   width: 100%;
+   padding-top: 0.5rem;
+   
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.options{
+    padding-left: 2rem;
+}
+
+.left , .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box{
+    padding-right: 2.1rem;
+}
